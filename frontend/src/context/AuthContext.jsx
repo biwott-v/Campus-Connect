@@ -42,7 +42,7 @@ export const AuthProvider = ({ children }) => {
       return true;
     } catch (error) {
       console.error('Login error:', error);
-      // Fallback in case server fails
+     
       const mockUser = {
         id: Date.now(),
         username: 'demo-user',
