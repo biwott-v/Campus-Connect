@@ -1,12 +1,41 @@
-# React + Vite
+# 📚 CampusConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CampusConnect** is a full-stack web application that allows students to upload, share, and discuss academic resources. It provides a collaborative environment with group chats, direct messaging, file sharing, and powerful search/filter capabilities—all.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+-  JWT Authentication (Register/Login/Logout)
+- Upload and download study resources
+- Group chat and direct messaging
+- File uploads in messages and resource posts
+- Duplicate resource prevention
+- Search and filter resources
+- Responsive UI with animations and transitions
+- Role-based protected routes
+- Real-time group collaboration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Technologies Used
+
+### Frontend:
+- React + React Router
+- vite
+
+### Backend:
+- Python Flask
+- Flask-JWT-Extended
+- SQLAlchemy + Marshmallow
+- Flask-CORS
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/biwott-v/Campus-Connect.git
+   cd campusconnect/backend
